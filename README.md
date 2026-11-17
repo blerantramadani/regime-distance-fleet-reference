@@ -24,9 +24,11 @@ Folder names in this repository differ from those used during the analysis. The 
 | `Zbulimi_F3_2026-11-07/` | `posthoc_2026-11-07/matched_episode_frequency/` |
 | `Konfirmimi_2021-2022/` | `confirmation_2021-2022/` |
 
-The scripts here differ from the analysis copies only in these paths and in the neutral signal names. Their SHA-256 hashes therefore differ from the runner hashes recorded in the protocols and in the original `verification.json` files. The 2021–2022 confirmation protocol is registered on OSF (https://osf.io/vxqhk).
+The scripts here differ from the analysis copies only in these paths and in the neutral signal names; the figure script also takes its input folders as arguments instead of fixed local paths. Their SHA-256 hashes therefore differ from the runner hashes recorded in the protocols and in the original `verification.json` files. The 2021–2022 confirmation protocol is registered on OSF (https://osf.io/vxqhk).
 
 ## Requirements
+
+The prefix `health_twin` in script names is a historical project label. The method is an offline fleet residual-state method, not a digital twin (Section 4.3 of the manuscript).
 
 The analyses were run with Python 3.9.6, NumPy 2.0.2 and pandas 2.3.3; the figures use Matplotlib 3.9.4:
 
