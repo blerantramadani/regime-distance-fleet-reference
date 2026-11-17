@@ -1,0 +1,28 @@
+# Confidential SCADA data and all derived results stay local
+data/
+results/
+**/results/
+results_*/
+**/results_*/
+figures/output/
+figures/*.png
+figures/*.pdf
+posthoc_2026-11-02/**/*.png
+posthoc_2026-11-02/**/*.pdf
+repairs_2026-09-18/rolling/
+repairs_2026-09-18/common/
+repairs_2026-09-18/mechanism_M2/
+repairs_2026-09-18/expanded_alpha_M2/
+repairs_2026-09-18/*.csv
+repairs_2026-09-18/*.json
+repairs_2026-09-18/Raporti_*.md
+*.csv
+*.csv.gz
+*.mdb
+*.zip
+signal_map*.json
+
+# Python
+__pycache__/
+*.pyc
+.DS_Store
